@@ -186,7 +186,7 @@ if __name__ == '__main__':
             spider(driver, soup, papers,writer_p_a)
         else:
 
-            for pn in range(2, int(int(count)/20)+1):
+            for pn in range(0, int(int(count)/20)+1):
                 print('this is pagi ',pn)
                 content = change_page(driver, pn)
                 time.sleep(10)
