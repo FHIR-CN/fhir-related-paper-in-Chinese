@@ -11,8 +11,7 @@ import csv
 import base64
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.utils import ChromeType
-
+from webdriver_manager.core.utils import ChromeType
 
 # 定义论文类
 class Paper:
